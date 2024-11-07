@@ -1,0 +1,33 @@
+ .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 200px;
+  box-sizing: border-box;}
+
+   .Header-top {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;}
+   a.logo img {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+  }
+  span a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  span.header{
+    /* color: white; */
+    display: flex;
+        flex-direction: row-reverse;
+        column-gap: 15px;
+  }
+  /* img {
+    height: 20px;
+        width: 20px;
+  } */
