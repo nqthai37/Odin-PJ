@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Odin-PJ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container"> 
-        <header>
-            <div class="Header-top">
-                <a class="logo" href="index.html">
-                    <img src="https://cdnb.artstation.com/p/assets/images/images/006/259/391/large/steven-shea-venom-drip.jpg?1497210943"
-                        alt="logo"></a>
-                <span class="header">
-                    
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Setting</a>
-                    
-                </span>
-            </div>
-            <div class="header-body">
-                <h1>SYMBIOTE WORLDDDDD</h1>
-                <p class="header-body-text">This website contains images and information of somes symbioTE. I have seen in the movie theater</p>
-                <a class="sign-up" href="#">Sign Up</a>
-            </div>
-        </header>
-        <div class="Body1">
-            <h1>THE SYMBIOTE</h1>
-            <p class="Body-text">The symbiote is a fictional extraterrestrial species appearing in American comic books published by Marvel Comics. The symbiote was originally introduced as a living alien costume in The Amazing Spider 
-            <div class="Body-Image">
-                <img src="" alt="symbiote">
-                <p class="sub-image-text"> sub text</p>
-                <img src="" alt="symbiote">
-                <p class="sub-image-text"> sub text</p>
-                <img src="" alt="symbiote">
-                <p class="sub-image-text"> sub text</p>
-                <img src="" alt="symbiote">
-                <p class="sub-image-text"> sub text</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header-top">
+        <a class="logo" href="index.html">
+          <img src="img/venom.webp" alt="logo"
+        /></a>
+        <span class="header">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Setting</a>
+        </span>
+      </div>
+      <div class="header-body">
+        <div class="header-body-text">
+          <h1>SYMBIOTE WORLDDDDD</h1>
+          <p>
+            This website contains images and information of somes symbioTE. I
+            have seen in the movie theater
+          </p>
+          <button class="sign-up" onclick="">Sign Up</button>
         </div>
-        <div class="Body2">
-            <h3 class="Quote">"We are Venom"</h3>
-            <h3 class = "Author">VENOM</h3>
+        <div class="header-body-image">
+          <img src="img/venom.jpg" alt="venom" />
         </div>
-        <div class = "Body3">
-            <div class = "Ads">
-                <h2>SYMBIOTE</h2>
-                <p>Get your own symbiote today</p>
-                <a class="sign-up" href="#">sign-up</a>
-            </div>    
+      </div>
+    </header>
+    <div class="Body1 container">
+      <h1>THE SYMBIOTE</h1>
+      <p class="Body-text">
+        The symbiote is a fictional extraterrestrial species appearing in
+        American comic books published by Marvel Comics. The symbiote was
+        originally introduced as a living alien costume in The Amazing Spider
+      </p>
+      <div class="Body-Image">
+        <div class="body1-image">
+          <img src="img/riot.jpg" alt="Riot" />
+          <p class="sub-image-text">Riot</p>
         </div>
-    <footer>
-        <!-- show copyright -->
-        <p>&copy; 2021 Odin-PJ</p>
+        <div class="body1-image">
+          <img src="img/carnage.jpg" alt="carnage" />
+          <p class="sub-image-text">Carnage</p>
+        </div>
+        <div class="body1-image">
+          <img src="img/anti-venom.jpg" alt="anti-venom" />
+          <p class="sub-image-text">Anti-Venom</p>
+        </div>
+        <div class="body1-image">
+          <img src="img/venom.jpg" alt="venom" />
+          <p class="sub-image-text">Venom</p>
+        </div>
+      </div>
+    </div>
+    <div class="Quote container">
+      <h3 class="Quote-content">
+        "80 Billion Light-Years Of Hive Knowledge Across Universes Would Explode
+        Your Tiny Little Brain"
+      </h3>
+      <h3 class="Author">VENOM</h3>
+    </div>
+    <div class="Call-out container">
+      <div class="Call-out-content">
+        <div class="Ads">
+          <h2>SYMBIOTE</h2>
+          <p>Get your own symbiote today</p>
+        </div>
+        <button class="sign-up" onclick="">Sign Up</button>
+      </div>
+    </div>
+    <footer class="container">
+      <!-- show copyright -->
+      <p>CopyRight &copy; The Odin Project - Venom</p>
     </footer>
-
-
-</body>
-
-
-
+  </body>
 </html>
