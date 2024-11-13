@@ -28,6 +28,7 @@ header {
 }
 
 .header-body-text p {
+
   font-size: 18px;
   color: #E5E7EB
 }
@@ -38,7 +39,13 @@ header {
   font-weight: 900px;
 }
 
+.Body-text {
+  text-align: left;
+}
+
 .Quote-content {
+  margin: 0;
+  padding: 0 80px;
   font-size: 36px;
   font-style: italic;
   font: lighter;
@@ -75,7 +82,7 @@ span.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
+  padding-bottom: 20px;
   background-color: #1f2937;
   color: white;
 }
@@ -83,7 +90,7 @@ span.header {
 .header-body .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   margin: 50px;
 }
 
@@ -139,14 +146,14 @@ span.header {
   background-color: #e5e7eb;
 }
 
-.Quote .Quote-content,
+
 .Author {
   margin: 0;
 }
 
 .Quote-content {
-  text-align: center;
-  padding: 0 10%;
+  text-align: left;
+
   padding-top: 60px;
 }
 
@@ -156,9 +163,15 @@ span.header {
 }
 
 .Call-out {
-  padding: 20px;
-  background-color: white;
+  margin: 20px 0;
+  padding: 0 60px;
   color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #3882f6;
+  border-radius: 14px;
+  color: white;
 }
 
 .Ads,
@@ -166,27 +179,12 @@ span.header {
   margin: 0;
 }
 
-/* .Ads {
-  padding-left: 20px;
-} */
 
 .Call-out .sign-up {
-  padding: 10px 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-.Call-out .Call-out-content {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  background-color: #3882f6;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  border-radius: 14px;
-  margin: 0 20%;
-  color: white;
-}
+
 
 footer {
   background-color: #1f2937;
