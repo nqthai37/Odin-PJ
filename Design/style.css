@@ -33,7 +33,7 @@ header {
   color: #E5E7EB
 }
 
-.Body1 h1 {
+.nav h1 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900px;
@@ -81,7 +81,6 @@ span.header {
 .header-body {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding-bottom: 20px;
   background-color: #1f2937;
   color: white;
@@ -119,7 +118,7 @@ span.header {
   border: 1px solid white;
 }
 
-.Body1 {
+.nav {
   text-align: center;
   flex-direction: row;
   background-color: white;
@@ -144,6 +143,8 @@ span.header {
 
 .Quote {
   background-color: #e5e7eb;
+  display: block;
+  padding: 0 10%;
 }
 
 
@@ -159,11 +160,11 @@ span.header {
 
 .Author {
   text-align: right;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .Call-out {
-  margin: 20px 0;
+  margin: 60px 0;
   padding: 0 60px;
   color: black;
   display: flex;
